@@ -1,7 +1,7 @@
 # Smart-Door-Lock
 
 ## Description of the Lock Module 
-The lock module consists of an ESP32 microcontroller, a 16x2 LCD display, a HW-138 keypad, and a SG90 servo motor all powered by a 5v USB cable. The ESP32 stores three pieces of information for each user: the name, a 4-digit id, and a 4-digit pin. To unlock the door, the user has to enter an 8-digit passcode 
+The lock module consists of an ESP32 microcontroller, a 16x2 LCD display, an HW-138 keypad, and a SG90 servo motor all powered by a 5v USB cable. The ESP32 stores three pieces of information for each user: the name, a 4-digit id, and a 4-digit pin. To unlock the door, the user has to enter an 8-digit passcode 
 which is the combination of their id and pin. To unlock the door, the user enters the same code again. To change the name and pin, the user must use the companion app to do so. 
 
 ### Prototype
