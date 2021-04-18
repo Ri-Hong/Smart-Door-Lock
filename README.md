@@ -1,9 +1,5 @@
 # Smart-Door-Lock
 
-## Description
-The smart door lock is a module that attatches to your door. To unlock the door, the user must enter an 8-digit pin. To lock the door, the user must enter the
-same 8-digit pin when the door is unlocked. The companion app allows for remote locking and unlocking of the door/  
-
 ## Description of the Lock Module 
 The lock module consists of an ESP32 microcontroller, a 16x2 LCD display, a HW-138 keypad, and a SG90 servo motor all powered by a 5v USB cable. The ESP32 stores three pieces of information for each user: the name, a 4-digit id, and a 4-digit pin. To unlock the door, the user has to enter an 8-digit passcode 
 which is the combination of their id and pin. To unlock the door, the user enters the same code again. To change the name and pin, the user must use the companion app to do so. 
@@ -13,7 +9,7 @@ which is the combination of their id and pin. To unlock the door, the user enter
 ![Wiring Beneath"](Images/Wiring.jpg "Wiring Beneath")
 ![Final Package](Images/Final_Package.jpg "Final Package")
 
-### Materials Required
+## Materials Required
 * ESP32
 * 16x2 LCD display
 * HW-138 touchpad
@@ -22,7 +18,7 @@ which is the combination of their id and pin. To unlock the door, the user enter
 * A USB power brick to plug into the wall
 * A few wires to connect everything together (I used old ethernet cables)
 
-### Circuit Diagram
+## Circuit Diagram
 ![Image of Circuit Diagram](Images/Circuit_Diagram.png "Image of Circuit Diagram")
 
 ## Description of Android Application
