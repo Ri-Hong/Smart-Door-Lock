@@ -42,10 +42,10 @@ LiquidCrystal lcd(22,23,5,18,19,21); //Create an lcd object using the LCD pins
 Servo servo;  //Create a servo object
 
 int touchButtonPins[4] = {13, 12, 14, 27}; //Stores the corresponding pin values on the ESP32 that map to the pins on the HW-138
-String names[10] = { "Davey", "Ri" }; //Stores the existing names of the users. Max # of users is capped at 10 for now
-String ids[10] = { "1111", "2222" }; //Stores the existing ids of the users 
-String pins[10] = { "1111", "2222" }; //Stores the existing pins of the users
-int numUsers = 2; //Stores the amount of users currently registered
+String names[10] = {}; //Stores the existing names of the users. Max # of users is capped at 10 for now
+String ids[10] = {}; //Stores the existing ids of the users 
+String pins[10] = {}; //Stores the existing pins of the users
+int numUsers = 0; //Stores the amount of users currently registered
 int userIndex; //Stores the index of the id, name and pin that is being procesed
 String enteredPin; //Stores the numbers the user has currently entered. Pin will be 8 digits
 bool locked = true; //Stores whether the door is locked
